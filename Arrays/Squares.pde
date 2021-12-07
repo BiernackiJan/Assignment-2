@@ -3,7 +3,10 @@ public class Square{
    private float xCoord;
    private float yCoord;
    private int size = 20;
-   private int colour;
+   private int red;
+   private int green;
+   private int blue;
+   private int gray;
    private boolean stop = false;
    
    public Square(){
@@ -15,7 +18,15 @@ public class Square{
         setSize(size);
    }
    
-    public Square(float xCoord, float yCoord, int size, int colour){
+    public Square(float xCoord, float yCoord, int size, int red, int green, int blue){
+        fill(red, green, blue);
+        this.xCoord = xCoord;
+        this.yCoord = yCoord;  
+        setSize(size);
+   }
+   
+    public Square(float xCoord, float yCoord, int size, int gray){
+        fill(gray);
         this.xCoord = xCoord;
         this.yCoord = yCoord;  
         setSize(size);
