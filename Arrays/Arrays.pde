@@ -11,6 +11,11 @@ private float yCoord8 = -50;
 private float yCoord9 = -50;
 private float yCoord10 = -50;
 private float yCoord11 = -50;
+private float yCoord12 = -50;
+private float yCoord13 = -50;
+private float yCoord14 = -50;
+private float yCoord15 = -50;
+
 private int speed = 5;
 
 
@@ -35,6 +40,11 @@ void draw() {
   row9();
   row10();
   row11();
+  row12();
+  row13();
+  row14();
+  row15();
+  row16();
   /*
   for (int i = 0; i < squares.length; i++) { 
     squares[13] = new Square(500+ ((i+1)*30), yCoord, 30 , 0, 0, 255);
