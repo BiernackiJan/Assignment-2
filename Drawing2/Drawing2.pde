@@ -39,9 +39,9 @@ void setup() {
 
 
 void draw() {
- 
+
   background(255);
-  
+
   row1();
   row2();
   row3();
@@ -56,4 +56,7 @@ void draw() {
   row12();
   row13();
   row14();
+  row15();
+  row16();
+  row17();
 }

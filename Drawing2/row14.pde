@@ -20,11 +20,6 @@ void row14() {
         }
       }
     }
-    for(int i = 9; i<12; i++){
-        if (squares[i].getSkip()) {   
-          squares[i].display();
-        }
-    }
     for (int i = 0; i<4; i++) {
         for(int h = 3; h<=14; h+=11){
         if (squares[i].getSkip()) {   
@@ -41,7 +36,7 @@ void row14() {
   
   for (int j = 0; j <= 18; j++) { 
     squares[j].setSkip(true);
-  for(int i = 7; i <12; i+=4){
+  for(int i = 7; i <12; i++){
     if (squares[i].getSkip()) {   
       squares[i].display();
     }
