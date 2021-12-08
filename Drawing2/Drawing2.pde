@@ -1,4 +1,4 @@
-private Square[] squares = new Square[16];
+private Square[] squares = new Square[26];
 
 
 private float yCoord;
@@ -41,5 +41,5 @@ void draw() {
   
   background(255);
   
-  drawing1();
+  row1();
 }
