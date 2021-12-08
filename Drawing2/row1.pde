@@ -4,9 +4,9 @@ void row1(){
   if (yCoord <= 700) {
     yCoord += speed;
   }
-  stroke(255);
+ 
   for (int i = 0; i < 19; i++) { 
-    squares[i] = new Square(150+ ((i+1)*30), yCoord, 30 , 0);
+    squares[i] = new Square(xCoord+ ((i+1)*30), yCoord, 30 , 0);
   }
 
  
