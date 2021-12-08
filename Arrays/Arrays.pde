@@ -1,6 +1,6 @@
-private Square[] squares = new Square[16];
+private Square[] squares = new Square[26];
 
-
+private float xCoord = 210;
 private float yCoord;
 private float yCoord1 = -50;
 private float yCoord2 = -50;
@@ -41,5 +41,6 @@ void draw() {
   
   background(255);
   
-  drawing1();
+  //drawing1();
+  drawing2();
 }
