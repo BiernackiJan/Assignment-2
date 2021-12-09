@@ -1,5 +1,9 @@
 private Square[] squares = new Square[26];
 
+import javax.swing.*;  
+
+int choose[] = new int[1];        
+
 private float xCoord = 210;
 private float yCoord;
 private float yCoord1 = -50;
@@ -34,6 +38,11 @@ private int speed = 5;
 
 void setup() {
   size(800, 800);
+  for (int i = 0; i < 1 ; i ++)  {    
+    choose[i] = Integer.parseInt(JOptionPane.showInputDialog(
+    "Choose 1 or 2", "1"));  
+  }
+    
 }
 
 
@@ -41,6 +50,15 @@ void draw() {
   
   background(255);
   
-  //drawing1();
-  drawing2();
+  
+       
+
+
+    if(choose[0] == 1){
+    drawing1();
+}
+  if(choose[0] == 2){
+    drawing2();
+    
+}
 }
