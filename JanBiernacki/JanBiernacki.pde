@@ -32,7 +32,7 @@ private float yCoord22 = -50;
 private float yCoord23 = -50;
 private float yCoord24 = -50;
 
-private int speed = 5;
+private int speed = 10;
 
 
 
