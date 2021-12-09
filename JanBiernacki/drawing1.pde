@@ -1,4 +1,4 @@
-void drawing1(){
+void drawing1(){ //first drawing each row is similar code only thing that changes is the color of squares and which ones are shown
 
 //row1
   if (yCoord <= 600) {
